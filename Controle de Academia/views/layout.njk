@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        {% block head %}
+            <title>Gym Manager</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Moabe Luis</title>
+    </head>
+    <body>
+            <header>
+                <div class="links">
+                    <a href="/instructors" >Instructors</a>
+                    <a href="/members" >Members</a>
+                </div>    
+            </header>  
+
+            {% block content %}{% endblock %}
+
+            <script src="/scripts.js"></script>
+            
+    </body>
+</html>
